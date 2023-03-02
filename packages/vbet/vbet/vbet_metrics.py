@@ -1,7 +1,7 @@
 import os
 import sqlite3
 
-import ogr
+from osgeo import ogr
 
 from rscommons.classes.vector_classes import GeopackageLayer
 from rscommons.hand import run_subprocess
