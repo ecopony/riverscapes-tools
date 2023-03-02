@@ -151,6 +151,7 @@ def update_database(db_path, csv_path):
     return db_path
 
 
+# Here
 def load_lookup_data(db_path, csv_dir):
     """Load the database lookup data from CSV files.
     This gets called both during database creation during BRAT build,
